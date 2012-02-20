@@ -1,0 +1,14 @@
+Source: kweb
+Section: teambox-internal
+Priority: optional
+Maintainer: 
+Build-Depends: debhelper (>= 5), make, python-support
+Standards-Version: 3.7.2
+
+Package: kweb
+Architecture: all
+Conflicts: kweb (<< 0.0.1)
+Replaces: kweb (<< 0.0.1)
+Depends: ${python:Depends}
+Description: Common web packages used by the Teambox platform
+ Common web packages used by the Teambox platform.
